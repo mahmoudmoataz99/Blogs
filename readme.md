@@ -28,13 +28,13 @@ This is a full-stack blog platform built with **Node.js** and **MongoDB** on the
 - **React.js**: For building the user interface.
 - **React Router**: For handling navigation between different pages (Home, Login, Register, etc.).
 - **Axios**: For making HTTP requests to the backend.
-- **CSS/SCSS**: For styling the application.
+- **TailwindCSS**: For styling the application.
 
 ### Backend:
 - **Node.js**: JavaScript runtime environment.
 - **Express.js**: Web framework for building the RESTful API.
 - **MongoDB**: NoSQL database for storing users, blog posts, and comments.
-- **JWT (JSON Web Tokens)**: For user authentication and managing sessions.
+- **Cross-Origin Resource Sharing (CORS)**: It is extension needed for authorized resource sharing with external third parties
 
 ### Optional Enhancements:
 - **Role-based Access Control**: Admin and User roles for access control.
@@ -46,18 +46,8 @@ This is a full-stack blog platform built with **Node.js** and **MongoDB** on the
 
 ### User Features:
 - **User Authentication**: Register, login, and manage account settings.
-- **Blog Management**: Create, read, update, and delete your own blog posts.
+- **Blog Management**: Create, read, and delete your own blog posts.
 - **Blog Feed**: View a list of all blog posts in a paginated feed.
-- **Post Comments**: Users can comment on posts.
-
-### Admin Features:
-- **Admin Panel**: Admins can view all blog posts, and manage (edit or delete) them.
-- **User Management**: Admins can view and manage user accounts.
-
-### Optional Features:
-- **Image Upload**: Add images to your blog posts.
-- **Search Functionality**: Search for posts by title or content.
-- **Dark Mode**: Option to toggle dark mode.
 
 ## Installation
 
