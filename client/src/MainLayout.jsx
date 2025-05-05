@@ -60,7 +60,7 @@ const MainLayout = ({ children }) => {
               </>
             ) : (
               <Link to="/login" className="bg-white text-gray-800 p-2 px-4 text-lg rounded-xl hover:bg-gray-100 transition-colors">
-                Login/SignUp
+                Login / SignUp
               </Link>
             )}
           </div>
